@@ -1,0 +1,26 @@
+.btn {
+    display: inline-flex;
+      /*inline-flex para que a div tenha o tamanho do conteúdo, não do flex-container*/
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+    padding: 1.3rem 4.6rem;
+       /*com esse padding, o .btn tem a mesma largura e altura que o botão do figma. Me parece ser meio verboso usar width/height com padding, já que ambos chegam em um mesmo resultado, mas posso estar errado*/
+}
+
+.btn--orange {
+    background: var(--orange);
+}
+
+.btn__text {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.406rem;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.btn__icon {
+    vertical-align: middle;
+}

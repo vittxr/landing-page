@@ -1,0 +1,18 @@
+.description__title {
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+}
+
+.description__paragraph {
+    color: #666666;
+    margin: 1.813rem 0;
+      /*Aparentemente todos os paráfros desse tipo tem a mesma margin. Eles sempre estão no meio de dois elementos. Então, acredito que faça sentido colocar uma margin nessa classe, mesmo que ela seja usada em vários lugares (talvez tenha algum que seja necessário alterar a margin, mas posso sobrecrevê-lo. Acho que isso não é um problema)*/
+    font-weight: 400;
+}
+
+.description__paragraph--orange {
+    font-size: 18.5px;
+    font-weight: 700;
+    line-height: 22px;
+    color: var(--orange);
+}

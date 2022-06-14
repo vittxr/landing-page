@@ -1,0 +1,17 @@
+.advertisements__section {
+    width: auto;
+    height: 29.688rem;
+    display: flex;
+    /*  margin-left: 3.938rem; */
+    margin-top: 8rem;
+}
+
+.advertisement__box {
+    width: 24.125rem;
+    height: 100%;
+}
+
+.adv__box--spaced {
+    margin: 0 2.563rem;
+      /*define-se apenas o elemento do meio com uma margin dos dois lados.*/ 
+}

@@ -1,0 +1,39 @@
+.features__section {
+    margin-top: 240px;
+}
+
+.features__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45.25px;
+}
+
+.features__box {
+    margin-top: 114.67px;
+    display: flex;
+}
+
+.feature__box {
+    width: 272px;
+    margin-right: 46px;
+}
+
+.feature__image-box {
+    width: 272px;
+    height: 91.33px;
+      /*a imagem tem 69px de margin bottom, mas preferi setar um height no contâiner da imagem como 91px, que é 69px da margem mais o tamanho da própria imagem, que é 32px.*/
+}
+
+.feature__description {
+    height: 162px;
+}
+
+.features__section .description__title {
+    font-size: 22px;
+}
+
+.features__section .description__paragraph {
+    /*acho que é melhor deixar todos os parágrafos com a mesma classe, e alterar a que for necessária. Por exemplo, o parágrafos da features__section tem os mesmo estilos que a da adv__section, só muda a font-size. Fiz a mesma coisa com o description__title acima*/
+    font-size: 14px;
+    height: 54px;
+}
