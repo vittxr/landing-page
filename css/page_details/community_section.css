@@ -1,0 +1,30 @@
+.community__section {
+    display: flex;
+    margin-top: 263px;
+}
+
+.community-join__box {
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+}
+
+.community__paragraph.description__paragraph {
+    /*sobrescreve o estilo padrão (description__paragraph)*/
+    font-size: 1.125rem;
+    margin: 32px 0 48px 0; 
+}
+
+.community-users__boxes {
+    margin-left: 127px;
+    display: flex;
+}
+
+.community-user__box--spaced {
+    margin: 0 49px;
+}
+
+.community-country__paragraph.description__paragraph {
+    margin: 8px 0 11px 0;
+}
+
